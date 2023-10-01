@@ -6,8 +6,6 @@
     
 -->
 
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,9 +17,18 @@
   <body>
     <h1>Planets data</h1>
     <table>
+      <!-- Caption at top of table -->
       <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+      
+      <!-- Create loumn group so I can add border to the third column-->
+      <colgroup>
+        <col span="2" />
+        <col span="1" class="emphasize" /> <!-- Adds darker border -->
+      </colgroup>
+      
       <tr>
-        <th colspan="2"></th>
+        <!-- Need to have 2 columns here because Terrestrial Planets and Dwarf Planets are double wide-->
+        <th colspan="2"></th> 
         <th>Name</th>
         <th>Mass (10<sup>24</sup>kg)</th>
         <th>Diameter (km)</th>
@@ -35,7 +42,7 @@
       </tr>
 
       <tr>
-        <th rowspan="4" colspan="2">Terrestrial planets</th> <!-- Nested Row -->
+        <th rowspan="4" colspan="2">Terrestrial planets</th> <!-- Nested Row for 4 rows -->
         <th>Mercury</th>
         <td>0.330</td>
         <td>4,879</td>
@@ -88,8 +95,8 @@
       </tr>
       
       <tr>
-        <th rowspan="4">Jovian Planets</th>
-        <th rowspan="2">Gas Giants</th>
+        <th rowspan="4">Jovian Planets</th> <!-- Nested Row for 4 rows -->
+        <th rowspan="2">Gas Giants</th> <!-- Nested Row for 2 rows -->
         <th>Jupiter</th>     
         <td>1898</td>
         <td>142,984</td>
@@ -116,7 +123,7 @@
       </tr>
               
       <tr>
-        <th rowspan="2">Ice Giants</th>
+        <th rowspan="2">Ice Giants</th> <!-- Nested Row for 2 rows -->
         <th>Uranus</th>
         <td>86.8</td>
         <td>51,118</td>
@@ -143,7 +150,7 @@
       </tr>
                
       <tr>
-        <th colspan="2">Dwarf Planets</th>
+        <th colspan="2">Dwarf Planets</th> <!-- 2 columns wide -->
         <th>Pluto</th>
         <td>0.0146</td>
         <td>2,370</td>

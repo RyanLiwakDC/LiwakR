@@ -33,3 +33,7 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+
+.emphasize {
+  border: 2px solid rgb(10,10,10);
+}
