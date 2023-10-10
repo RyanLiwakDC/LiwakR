@@ -2,4 +2,21 @@ html {
   font-family: sans-serif;
 }
 
+
 /* Your CSS below here */
+.box {
+  width: 200px;
+  border: 1px solid darkred;
+  border-radius: 15px;
+  background: red;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-color: red;
+}
+.box p {
+  font:  1.2rem sans-serif;
+  text-align: center;
+}
