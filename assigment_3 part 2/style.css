@@ -1,22 +1,27 @@
-html {
-  font-family: sans-serif;
-}
 
 
 /* Your CSS below here */
 .box {
-  width: 200px;
   border: 1px solid darkred;
   border-radius: 15px;
   background: red;
-  padding: 20px;
+  display: flex;
   width: 200px;
-  height: 100px;
+  height: 200px;
   box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
-  background-color: red;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.2),rgb(0, 0, 0, 0.2));
+  box-shadow: 10px 10px 5px black;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0) outset, 2px 2px rgba(255, 255, 255, 0.5) inset;
 }
+
 .box p {
-  font:  1.2rem sans-serif;
+  font:  1.15rem sans-serif; /* 1.1REM for 16px = 18px */
   text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
 }
+
+

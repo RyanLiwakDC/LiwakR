@@ -42,7 +42,115 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
-html * {
-  font-size: 10px;
+html {
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 4rem;
+  text-indent: 0px;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 2rem;
+  text-indent: 0px;
+}
+
+/* li and ul style */
+ul li {
+  line-height: 150%;
+  font-size: 1.5rem;
+}
+
+/* make a list type "a" */
+li.a {
+  list-style-type: none;
+  line-height: 400%;
+  font-size: 1.5rem;
+  text-indent: 0px;
+}
+
+/* body stlyle */
+body {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-indent: 25px;
+}
+
+section {
+  font-size: 20px;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+/* focus on link */
+a:focus {
+  color: aqua;
+  text-decoration: none;
+  outline: none;
+}
+
+/* unvisited link */
+a {
+  text-decoration: underline;
+}
+
+/* external link icon */
+[href^="http"]::after {
+  content: '(external link)';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-indent: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(external-link-52.png);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+/* special link section wih different format*/
+a.nav {
+  text-decoration: none;
+  color: #a66;
+  font-weight: bold;
+  border: 1px solid #a66;
+  display: block;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* visited link */
+a.nav:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a.nav:hover {
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+/* focus on link */
+a.nav:focus {
+  color: aqua;
+  text-decoration: none;
+  outline: none;
 }
